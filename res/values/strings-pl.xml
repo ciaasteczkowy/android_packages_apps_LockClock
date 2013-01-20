@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 The CyanogenMod Project (DvTonder)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- General strings -->
+    <string name="app_name" translatable="false">Chronus</string>
+    <string name="unknown">Unknown</string>
+    <string name="cancel">Anuluj</string>
+    <string name="loading_indicator">Ładowanie widgetu\u2026</string>
+
+    <!-- Formating strings for widget clock -->
+    <string name="widget_12_hours_format_h" translatable="false">h</string>
+    <string name="widget_12_hours_format_no_ampm_m" translatable="false">:mm</string>
+    <string name="widget_12_hours_format_m" translatable="false">:mm<font size="15">aa</font></string>
+    <string name="widget_24_hours_format_h" translatable="false">kk</string>
+    <string name="widget_24_hours_format_m" translatable="false">:mm</string>
+
+    <!-- Weather - Weather codes -->
+    <string name="weather_0">Tornado</string>
+    <string name="weather_1">Tropical Storm</string>
+    <string name="weather_2">Huragan</string>
+    <string name="weather_3">Ciężkie burze</string>
+    <string name="weather_4">Burze</string>
+    <string name="weather_5">Deszcz ze śniegiem</string>
+    <string name="weather_6">Deszcz ze śniegiem</string>
+    <string name="weather_7">Deszcz ze śniegiem</string>
+    <string name="weather_8">Marznąca mżawka</string>
+    <string name="weather_9">Mżawka</string>
+    <string name="weather_10">Marznący deszcz</string>
+    <string name="weather_11">Przelotny deszcz</string>
+    <string name="weather_12">Przelotny deszcz</string>
+    <string name="weather_13">Przelotny śnieg</string>
+    <string name="weather_14">Lekki śnieg</string>
+    <string name="weather_15">Zamiecie</string>
+    <string name="weather_16">Śnieg</string>
+    <string name="weather_17">Grad</string>
+    <string name="weather_18">Deszcz ze śniegiem</string>
+    <string name="weather_19">Pył</string>
+    <string name="weather_20">Mglisto</string>
+    <string name="weather_21">Mgiełka</string>
+    <string name="weather_22">Dymnie</string>
+    <string name="weather_23">Przenikliwie</string>
+    <string name="weather_24">Wietrznie</string>
+    <string name="weather_25">Mróz</string>
+    <string name="weather_26">Pochmurnie</string>
+    <string name="weather_27">Przewaga chmur</string> <!-- Night -->
+    <string name="weather_28">Przewaga chmur</string> <!-- Day -->
+    <string name="weather_29">Niewielkie zachmurzenie</string> <!-- Night -->
+    <string name="weather_30">Niewielkie zachmurzenie</string> <!-- Day -->
+    <string name="weather_31">Pogodnie</string> <!-- Night -->
+    <string name="weather_32">Słonecznie</string>
+    <string name="weather_33">Pogodnie</string> <!-- Night -->
+    <string name="weather_34">Pogodnie</string> <!-- Day -->
+    <string name="weather_35">Deszcz i grad</string>
+    <string name="weather_36">Gorąco</string>
+    <string name="weather_37">Pojedyncze burze</string>
+    <string name="weather_38">Rozproszone burze</string>
+    <string name="weather_39">Rozproszone burze</string>
+    <string name="weather_40">Rozproszony deszcz</string>
+    <string name="weather_41">Mocny śnieg</string>
+    <string name="weather_42">Rozproszony śnieg</string>
+    <string name="weather_43">Ciężki śnieg</string>
+    <string name="weather_44">Niewielkie zachmurzenie</string>
+    <string name="weather_45">Deszcze z burzami</string>
+    <string name="weather_46">Niewielki śnieg</string>
+    <string name="weather_47">Rozproszone deszcze z burzami</string>
+    <!-- Forecast unavailable -->
+    <string name="weather_3200"></string>
+
+    <!-- Weather - Wind directions -->
+    <string name="weather_N">Pn</string>
+    <string name="weather_NE">Pn-Ws</string>
+    <string name="weather_E">Ws</string>
+    <string name="weather_SE">Pd-Ws</string>
+    <string name="weather_S">Pd</string>
+    <string name="weather_SW">Pd-Z</string>
+    <string name="weather_W">Z</string>
+    <string name="weather_NW">Pn-Z</string>
+
+    <!-- Weather - error messages -->
+    <string name="weather_no_data">Brak danych</string>
+    <string name="weather_tap_to_refresh">Dotknij, aby odświeżyć</string>
+    <string name="weather_refreshing">Odświeżanie</string>
+    <string name="weather_last_sync_just_now">Przed chwilą</string>
+
+    <!-- Weather - Update frequency -->
+    <string name="weather_refresh_manual">Ręczny</string>
+    <string name="weather_refresh_30min">30 minut</string>
+    <string name="weather_refresh_60min">60 minut</string>
+    <string name="weather_refresh_2hrs">2 godziny</string>
+    <string name="weather_refresh_4hrs">4 godziny</string>
+    <string name="weather_refresh_6hrs">6 godzin</string>
+    <string name="weather_refresh_8hrs">8 godzin</string>
+
+    <!-- Preferences - Categories -->
+    <string name="clock_category">Zegar i alarm</string>
+    <string name="weather_category">Panel pogody</string>
+    <string name="calendar_category">Wydarzenia z kalendarza</string>
+
+    <!-- Preferences - Categories -->
+    <string name="general_category">Ogólne</string>
+    <string name="display_category">Wyświetlanie</string>
+
+    <!-- Preferences - Clock -->
+    <string name="use_digital_clock_title">Użyj zegara cyfrowego</string>
+    <string name="use_digital_clock_summary">Wybierz by przełączyć pomiędzy zegarem cyfrowym i wskazówkowym</string>
+    <string name="clock_font_title">Pogrubione godziny</string>
+    <string name="clock_font_minutes_title">Pogrubione minuty</string>
+    <string name="clock_font_date_title">Pogrubiona data i alarm</string>
+    <string name="show_alarm_title">Pokazuj następny alarm</string>
+
+    <!-- Preferences - Weather -->
+    <string name="weather_enabled">Włączona</string>
+    <string name="weather_enable">Wyświetlaj pogodę</string>
+    <string name="weather_source">Pogoda Yahoo!</string>
+    <string name="weather_use_custom_location">Użyj własnej lokalizacji</string>
+    <string name="weather_geolocated">Lokalizacja ustalona przez sieć</string>
+    <string name="weather_custom_location_dialog_title">Wprowadź lokalizację</string>
+    <string name="weather_custom_location_hint">Miasto, Kraj</string>
+    <string name="weather_custom_location_title">Lokalizacja</string>
+    <string name="weather_show_location_title">Pokaż lokalizację</string>
+    <string name="weather_show_timestamp_title">Pokaż czas odświeżenia</string>
+    <string name="weather_refresh_interval">Interwał odświeżania</string>
+    <string name="weather_use_metric">Użyj jednostek metrycznych</string>
+    <string name="weather_retrieve_location_dialog_title">Nie udało się odnaleźć lokacji!</string>
+    <string name="weather_retrieve_location_dialog_message">Lokalizacja przez sieć jest wyłączona.\n\nWprowadź własną lokację lub włącz automatyczną w ustawieniach.</string>
+    <string name="weather_retrieve_location_dialog_enable_button">Włączone</string>
+    <string name="weather_invert_lowhigh">Zamień najniższą/najwyższą temperaturę</string>
+    <string name="weather_progress_title">Potwierdzanie lokacji</string>
+    <string name="weather_alternate_icons_title">Użyj alternatywnych ikon</string>
+    <string name="weather_alternate_icons_summary">Wybierz, aby przełączyć między domyślnymi (białymi), a alternatywnymi (kolorowymi) ikonami</string>
+
+    <!-- Preferences - Calendar -->
+    <string name="calendar_title">Pokaż następne wydarzenia</string>
+    <string name="calendars_title">Wybierz kalendarze</string>
+    <string name="calendars_summary">Wydarzenia z tych kalendarzy będą wyświetlane</string>
+    <string name="calendar_reminders_only_title">Tylko przypomnienia</string>
+    <string name="calendar_reminders_only_summary">Pokaż tylko wydarzenia z przypomnieniem</string>
+    <string name="calendar_hide_allday_title">Ukryj całodniowe wydarzenia</string>
+    <string name="calendar_lookahead_title">Zakres czasu</string>
+    <string name="calendar_show_location_title">Lokalizacja wydarzenia</string>
+    <string name="calendar_show_description_title">Opis wydarzenia</string>
+
+    <!-- Calendar - lookahead -->
+    <string name="calendar_lookahead_3hrs">3 godziny</string>
+    <string name="calendar_lookahead_6hrs">6 godzin</string>
+    <string name="calendar_lookahead_12hrs">12 godzin</string>
+    <string name="calendar_lookahead_1day">1 dzień</string>
+    <string name="calendar_lookahead_3days">3 dni</string>
+    <string name="calendar_lookahead_1wk">tydzień</string>
+
+    <!-- Calendar - Event metadata -->
+    <string name="calendar_metadata_none">Nie pokazuj</string>
+    <string name="calendar_metadata_first_line">Pokaż pierwszą linię</string>
+    <string name="calendar_metadata_all">Pokaż wszystko</string>
+
+</resources>
